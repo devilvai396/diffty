@@ -1,0 +1,31 @@
+{
+  "accountAssociation": {
+    "header": "TODO_REPLACE_BASE64_HEADER",
+    "payload": "TODO_REPLACE_BASE64_PAYLOAD",
+    "signature": "TODO_REPLACE_BASE64_SIGNATURE"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Diffly",
+    "homeUrl": "https://{DOMAIN}/",
+    "iconUrl": "https://{DOMAIN}/assets/icon.png",
+    "splashImageUrl": "https://{DOMAIN}/assets/splash.png",
+    "splashBackgroundColor": "#020617",
+    "subtitle": "See difference, not lines.",
+    "description": "Paste two snippets and Diffly renders a one-line semantic diff fingerprint. No line-by-line noise\u2014just visual truth.",
+    "primaryCategory": "utility",
+    "tags": [
+      "fun",
+      "simple",
+      "utility"
+    ],
+    "heroImageUrl": "https://{DOMAIN}/assets/hero.png",
+    "ogTitle": "Diffly",
+    "ogDescription": "Paste two snippets and Diffly renders a one-line semantic diff fingerprint. No line-by-line noise\u2014just visual truth.",
+    "ogImageUrl": "https://{DOMAIN}/assets/hero.png",
+    "screenshotUrls": [
+      "https://{DOMAIN}/assets/hero.png"
+    ],
+    "noindex": true
+  }
+}
