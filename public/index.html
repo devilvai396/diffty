@@ -1,0 +1,32 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="fc:miniapp" content="{&quot;version&quot;: &quot;1&quot;, &quot;imageUrl&quot;: &quot;https://{DOMAIN}/assets/embed-3x2.png&quot;, &quot;button&quot;: {&quot;title&quot;: &quot;Open&quot;, &quot;action&quot;: {&quot;type&quot;: &quot;launch_frame&quot;, &quot;url&quot;: &quot;https://{DOMAIN}/&quot;}}, &quot;splashImageUrl&quot;: &quot;https://{DOMAIN}/assets/splash.png&quot;, &quot;splashBackgroundColor&quot;: &quot;#020617&quot;, &quot;name&quot;: &quot;Diffly&quot;, &quot;homeUrl&quot;: &quot;https://{DOMAIN}/&quot;, &quot;iconUrl&quot;: &quot;https://{DOMAIN}/assets/icon.png&quot;}">
+<meta property="fc:frame" content="vNext">
+<meta property="fc:frame:image" content="https://{DOMAIN}/assets/embed-3x2.png">
+<meta property="fc:frame:button:1" content="Open">
+<meta property="fc:frame:button:1:action" content="link">
+<meta property="fc:frame:button:1:target" content="https://{DOMAIN}/">
+<meta property="fc:frame:action" content="launch_frame">
+<meta property="fc:frame:splash_image" content="https://{DOMAIN}/assets/splash.png">
+<meta property="fc:frame:splash_background_color" content="#020617">
+<meta property="og:title" content="Diffly">
+<meta property="og:description" content="Paste two snippets and Diffly renders a one-line semantic diff fingerprint. No line-by-line noise—just visual truth.">
+<meta property="og:image" content="https://{DOMAIN}/assets/hero.png">
+<title>Diffly</title>
+<style>
+body{margin:0;background:#020617;color:#e5e7eb;font-family:system-ui}
+.wrap{max-width:520px;margin:16px auto;padding:8px}
+.top{display:flex;justify-content:space-between}
+.logo{letter-spacing:.3em;font-weight:900}
+.sub{font-size:12px;color:#9ca3af}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+textarea{min-height:80px;background:#0b1020;color:#e5e7eb;border:1px solid #1f2937;border-radius:12px;padding:8px}
+canvas{border:1px solid #1f2937;border-radius:12px;background:#0b1020}
+.hint{font-size:12px;color:#9ca3af}
+@media(max-width:420px){.cols{grid-template-columns:1fr}}
+</style>
+</head><body>
+<div id="app"></div>
+<script type="module" src="./script.js"></script>
+</body></html>
